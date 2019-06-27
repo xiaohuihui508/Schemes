@@ -30,6 +30,9 @@
 		6603F8CC22C4632D005721A8 /* APPDev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6603F8BC22C45A4C005721A8 /* APPDev.plist */; };
 		6603F8CD22C4632D005721A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6603F88122C45960005721A8 /* Main.storyboard */; };
 		6603F8D422C46386005721A8 /* APPQA.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6603F8D322C46385005721A8 /* APPQA.plist */; };
+		6603F8D722C46BAA005721A8 /* RootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6603F8D622C46BAA005721A8 /* RootVC.m */; };
+		6603F8D822C46BAA005721A8 /* RootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6603F8D622C46BAA005721A8 /* RootVC.m */; };
+		6603F8D922C46BAA005721A8 /* RootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6603F8D622C46BAA005721A8 /* RootVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +75,8 @@
 		6603F8C222C45F41005721A8 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		6603F8D122C4632D005721A8 /* APPQA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APPQA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6603F8D322C46385005721A8 /* APPQA.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = APPQA.plist; sourceTree = SOURCE_ROOT; };
+		6603F8D522C46BAA005721A8 /* RootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootVC.h; sourceTree = "<group>"; };
+		6603F8D622C46BAA005721A8 /* RootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +147,8 @@
 				6603F87C22C45960005721A8 /* AppDelegate.m */,
 				6603F87E22C45960005721A8 /* ViewController.h */,
 				6603F87F22C45960005721A8 /* ViewController.m */,
+				6603F8D522C46BAA005721A8 /* RootVC.h */,
+				6603F8D622C46BAA005721A8 /* RootVC.m */,
 				6603F88122C45960005721A8 /* Main.storyboard */,
 				6603F88422C45961005721A8 /* Assets.xcassets */,
 				6603F88622C45961005721A8 /* LaunchScreen.storyboard */,
@@ -362,6 +369,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6603F8D722C46BAA005721A8 /* RootVC.m in Sources */,
 				6603F88022C45960005721A8 /* ViewController.m in Sources */,
 				6603F88B22C45961005721A8 /* main.m in Sources */,
 				6603F87D22C45960005721A8 /* AppDelegate.m in Sources */,
@@ -388,6 +396,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6603F8D822C46BAA005721A8 /* RootVC.m in Sources */,
 				6603F8AF22C45A22005721A8 /* ViewController.m in Sources */,
 				6603F8B022C45A22005721A8 /* main.m in Sources */,
 				6603F8B122C45A22005721A8 /* AppDelegate.m in Sources */,
@@ -398,6 +407,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6603F8D922C46BAA005721A8 /* RootVC.m in Sources */,
 				6603F8C522C4632D005721A8 /* ViewController.m in Sources */,
 				6603F8C622C4632D005721A8 /* main.m in Sources */,
 				6603F8C722C4632D005721A8 /* AppDelegate.m in Sources */,
