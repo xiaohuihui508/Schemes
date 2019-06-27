@@ -17,6 +17,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
+    UILabel *lb = [[UILabel alloc] init];
+    lb.backgroundColor = [UIColor redColor];
+    lb.textAlignment = NSTextAlignmentCenter;
+    lb.text = kServerAddress;
+    [self.view addSubview:lb];
+    lb.frame = CGRectMake(100, 100, 200, 30);
+    
+    
 }
 
 
